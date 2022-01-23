@@ -1,0 +1,20 @@
+{
+  "name": "kakaochat",
+  "version": "1.0.0",
+  "description": "skill-sever-timetable",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "comcigan-parser": "^1.0.0",
+    "express": "^4.17.1",
+    "korean-school": "^0.8.6",
+    "morgan": "^1.10.0",
+    "school-kr": "^3.1.2",
+    "school.hana.js": "0.0.1"
+  }
+}

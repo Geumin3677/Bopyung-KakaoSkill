@@ -1,0 +1,47 @@
+{
+  "name": "korean-school",
+  "version": "0.8.6",
+  "description": "Fetch Korean Schools Data Online",
+  "main": "lib/index.js",
+  "keywords": [
+    "korean",
+    "schools",
+    "information",
+    "neis",
+    "schoolinfo",
+    "comcigan"
+  ],
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "iconv-lite": "^0.5.0",
+    "jsdom": "^15.1.1",
+    "puppeteer": "^1.18.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-json-schema": "^1.5.1",
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.0",
+    "mocha": "^6.1.4"
+  },
+  "scripts": {
+    "lint": "eslint lib test",
+    "lint-fix": "eslint lib test --fix",
+    "test": "mocha --timeout 15000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Astro36/korean-school.git"
+  },
+  "author": "Seungjae Park <astro.psj@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Astro36/korean-school/issues"
+  },
+  "homepage": "https://github.com/Astro36/korean-school#readme"
+}
